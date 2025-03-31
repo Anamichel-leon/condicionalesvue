@@ -1,18 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import recorrido from './components/recorrido.vue'  
-import Horario from './components/Horario.vue';
-import Padre from './components/Props/Padre.vue';
+import Eventos from './components/Eventos/Eventos.vue';
+
+
 </script>
 
 <template>
-    <!--Horario/-->
-  
-<!--HelloWorld msg="Vite + Vue" /-->
-<!--<recorrido /-->
-<Padre/>
+   <Eventos />
 </template>
 
-<style scoped >
-
-</style>
+<style scoped> </style>
